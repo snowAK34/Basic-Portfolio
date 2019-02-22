@@ -17,7 +17,7 @@ body {
     display: block;
 }
 
-footer, .page-wrap:after {
+.page-wrap:after {
     height: 25px;
 }
 
@@ -67,9 +67,9 @@ nav {
     width: 960px;
     background-color: #ffffff;
     border: solid thin #dddddd;
-    margin: 30px auto;
+    margin: 30px auto 50px auto;
     padding: 20px;
-    position: relative;
+    position: relative;    
 }
 
 h2 {
@@ -95,7 +95,12 @@ p {
 
 /* Content Elements only on portfolio */
 
+#portcon {
+    height: 840px;
+}
+
 .portpic {
+    overflow: auto;
     position: relative;
     height: 200px;
     width: 200px;
@@ -115,29 +120,40 @@ p {
 }
 
 #pic1{
-
+    position: absolute;
+    top: 100px;
+    left: 20px;
 }
 
 #pic2 {
-    
+    position: absolute;
+    top: 100px;
+    left: 260px;
 }
 
 #pic3 {
-    
+    position: absolute;
+    top: 350px;
+    left: 20px;
 }
 
 #pic4 {
-    
+    position: absolute;
+    top: 350px;
+    left: 260px;
 }
 
 #pic5 {
-    
+    position: absolute;
+    top: 600px;
+    left: 20px;
 }
 
 /* Content Elements only on contact */
 
 form {
     padding: 10px;
+    color: #777777;
 }
 
 #button {
@@ -159,9 +175,7 @@ footer {
     padding-bottom: 0;
     padding-top: 20px;
     border-top: solid 5px #4aaaa5;
-    position: fixed;
-    bottom: 0;
-    left: 0;
+    height: 25px;
     width: 100%;
 }
 
