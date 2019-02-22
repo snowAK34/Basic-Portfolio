@@ -100,7 +100,6 @@ p {
 }
 
 .portpic {
-    overflow: auto;
     position: relative;
     height: 200px;
     width: 200px;
@@ -110,7 +109,7 @@ p {
 
 .label {
     position: absolute;
-    bottom: 50px;
+    bottom: 15px;
     background-color: #4aaaa5;
     color: #ffffff;
     width: 100%;
