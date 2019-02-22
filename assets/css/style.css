@@ -21,14 +21,15 @@ body {
     height: 25px;
 }
 
+
 /* This section for across the top of the page. */
 
 .top {
     overflow: auto;
     background-color: #ffffff;
-    border-bottom: solid 2px #dddddd;
+    border-bottom: solid 5px #dddddd;
     margin: 0px 0px 30px 0px;
-    height: 100px;
+    height: 85px;
     width: 100%;
 }
 
@@ -59,8 +60,12 @@ nav {
     display: inline;
 }
 
-/* Middle content of the page */
+a:hover {
+    font-weight: bold;
+}
 
+
+/* Middle content of the page */
 
 .content {
     clear:both;
@@ -84,6 +89,7 @@ p {
     padding: 10px;
 }
 
+
 /* Content Elements only on index */
 
 #stacypic {
@@ -92,6 +98,7 @@ p {
     width: 150px;
     padding: 20px;
 }
+
 
 /* Content Elements only on portfolio */
 
@@ -105,6 +112,11 @@ p {
     width: 200px;
     margin: 20px;
     border: solid thin lightgrey;
+    opacity: 1;
+}
+
+.portpic:hover {
+    opacity: 0.5;
 }
 
 .label {
@@ -148,6 +160,7 @@ p {
     left: 20px;
 }
 
+
 /* Content Elements only on contact */
 
 form {
@@ -160,9 +173,19 @@ form {
     color: #ffffff;
     text-align: center;
     border: solid thin #dddddd;
-    padding: 10px 5px 10px 5px;
+    padding: 10px;
     margin-top: 10px;
+    font-size: large;
+    border-radius: 10px;
+    box-shadow: 0px 5px lightgrey;
+    position: relative;
 }
+
+#button:active {
+    box-shadow: 0px 1px darkgrey;
+    top: 4px;
+}
+
 
 /* Footer across bottom of page */
 
@@ -173,7 +196,7 @@ footer {
     text-align: center;
     padding-bottom: 0;
     padding-top: 20px;
-    border-top: solid 5px #4aaaa5;
+    border-top: solid 8px #4aaaa5;
     height: 25px;
     width: 100%;
 }
