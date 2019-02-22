@@ -1,15 +1,16 @@
 * {
     margin: 0px;
+    box-sizing: border-box;
 }
 
-body {
+html, body {
     background-image: url(../images/greyzz_@2X.png);
     height: 100%;
 }
 
 .page-wrap {
     min-height: 100%;
-    margin-bottom: -25px;
+    margin-bottom: -50px;
 }
 
 .page-wrap:after {
@@ -18,16 +19,16 @@ body {
 }
 
 .page-wrap:after {
-    height: 25px;
+    height: 50px;
 }
 
 
 /* This section for across the top of the page. */
 
 .top {
-    overflow: auto;
+    position: relative;
     background-color: #ffffff;
-    border-bottom: solid 5px #dddddd;
+    border-bottom: solid 5px #cccccc;
     margin: 0px 0px 30px 0px;
     height: 85px;
     width: 100%;
@@ -64,7 +65,7 @@ h1 {
     border-right: solid 2px #777777;
     margin: 35px 0px 35px 0px;
     list-style-type: none;
-    width: 45px;
+    width: 75px;
 }
 
 #portfolio {
@@ -73,7 +74,7 @@ h1 {
     border-right: solid 2px #777777;
     margin: 35px 0px 35px 0px;
     list-style-type: none;
-    width: 64px;
+    width: 90px;
 }
 
 #contact {
@@ -81,7 +82,7 @@ h1 {
     padding: 0px 10px 0px 10px;
     margin: 35px 0px 35px 0px;
     list-style-type: none;
-    width: 59px;
+    width: 90px
 }
 
 a:hover {
@@ -97,7 +98,7 @@ a:hover {
     width: 960px;
     background-color: #ffffff;
     border: solid thin #dddddd;
-    margin: 30px auto 50px auto;
+    margin: 30px auto 30px auto;
     padding: 20px;
     position: relative;    
 }
@@ -121,7 +122,7 @@ p {
     float: left;
     height: 190px;
     width: 150px;
-    padding: 20px;
+    margin: 20px;
 }
 
 
@@ -136,7 +137,7 @@ p {
     height: 200px;
     width: 200px;
     margin: 20px;
-    border: solid thin lightgrey;
+    border: solid thin #777777;
     opacity: 1;
 }
 
@@ -152,7 +153,8 @@ p {
     width: 100%;
     height: 30px;
     text-align: center;
-    padding-top: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
     font-family: Arial, 'Helvetica neue', Helvetica, sans-serif;
 }
 
@@ -223,8 +225,9 @@ footer {
     text-align: center;
     padding-bottom: 0;
     padding-top: 20px;
+    margin-top: 10px;
     border-top: solid 8px #4aaaa5;
-    height: 25px;
+    height: 50px;
     width: 100%;
 }
 
